@@ -26,7 +26,7 @@ async def _(event):
 
         return
 
-    animation_interval = 1
+    animation_interval = 3
     
 
     animation_ttl = range(0, 103)
@@ -56,4 +56,4 @@ async def _(event):
         for i in animation_ttl:
 
 
-            await event.edit(animation_chars[i % 101])
+            await event.edit(animation_chars[i % 103])
