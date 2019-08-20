@@ -6,12 +6,12 @@ import asyncio
 from collections import deque
 
 
-@borg.on(events.NewMessage(pattern=r"\.mk", outgoing=True))
+@borg.on(events.NewMessage(pattern=r"\.run", outgoing=True))
 async def _(event):
 	if event.fwd_from:
 		return
 	deq = deque(list("🏃‍♂🏃‍♂🏃‍♂🏃‍♂🏃‍♂🏃‍♂🏃‍"))
-	for _ in range(80):
+	for _ in range(20):
 		await asyncio.sleep(0.1)
 		await event.edit("".join(deq))
 		deq.rotate(1)
