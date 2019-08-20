@@ -33,25 +33,24 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "oof":
+    if input_str == "kill":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "o",
-            "oo",    
-            "ooo",
-            "ooooo",
-            "oooooo",
-            "ooooooo",
-            "oooooooo",
-            "ooooooooo",
-            "oooooooooo",    
-            "ooooooooooo",
-            "oooooooooooo",
-            "ooooooooooooo",
-            "oooooooooooooof"
+            "Ｆｉｉｉｉｉｒｅ",
+            "(　･ิω･ิ)︻デ═一-->",    
+            "---->",
+            "------>",
+            "-------->",
+            "---------->",
+            "------------>",
+            "-------------->",
+            "------------------>",    
+            "------>;(^。^)ノ",
+            "(￣ー￣) DED",
+            "Target killed successfully (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)",
         ]
 
         for i in animation_ttl:
