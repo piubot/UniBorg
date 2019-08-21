@@ -26,7 +26,7 @@ async def _(event):
 
         return
 
-    animation_interval = 30
+    animation_interval = 50
     
 
     animation_ttl = range(0, 103)
@@ -40,8 +40,6 @@ async def _(event):
         animation_chars = [
 
             "Ｆｉｉｉｉｉｒｅ",
-            "Ｆｉｉｉｉｉｒｅ",
-            "(　･ิω･ิ)︻デ═一-->", 
             "(　･ิω･ิ)︻デ═一-->", 
             "---->______________",
             "------>_____________",
@@ -52,8 +50,6 @@ async def _(event):
             "------------------>",    
             "------>;(^。^)ノ",
             "------>;(^。^)ノ",
-            "------>;(^。^)ノ",
-            "(￣ー￣) DED",
             "(￣ー￣) DED",
             "(￣ー￣) DED",
             "**Target killed successfully (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
