@@ -15,7 +15,7 @@ borg.storage.PM_WARNS = {}
 borg.storage.PREV_REPLY_MESSAGE = {}
 
 
-BAALAJI_TG_USER_BOT = "ℋẹℒℒỔ 🙋‍♂ Welcome To My PM 😟.\nThis is a Automated Message From My Bot (@mahshook_bot) :-\n\nMy Master is Currently Busy and He Doesn't Approved Your PM yet. Please Wait For Him To Respond.ヽ(^o^)丿"
+BAALAJI_TG_USER_BOT = "ℋẹℒℒỔ 🙋‍♂ Welcome To My PM 😟.\nThis is an Automated Message From My Bot:- \n\nMy Master is Currently Busy and He Doesn't Approved Your PM yet. Please Wait For Him To Respond.ヽ(^o^)丿"
 TG_COMPANION_USER_BOT = "🤦‍♂ Please wait.....\nAs Far As I know My Master is Very Cool 😌. Most probably He Will Approve This Pm Unless You Are a Retard or Perv 😐"
 UNIBORG_USER_BOT_WARN_ZERO = "OMG 🙆‍♂ I Said That He is Currently Offline. Don't Dare To Spam his PM."
 UNIBORG_USER_BOT_NO_WARN = "Hey you! seriously...🙄. Its Enough Now. I have Another Works To Complete, So If You Send One More Message I Will Block This Pm Temporarily."
