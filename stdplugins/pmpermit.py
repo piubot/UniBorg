@@ -15,10 +15,10 @@ borg.storage.PM_WARNS = {}
 borg.storage.PREV_REPLY_MESSAGE = {}
 
 
-BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
-TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
-UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
-UNIBORG_USER_BOT_NO_WARN = "Hi! I will answer to your message soon. Please wait for my response and don't spam my PM. Thanks"
+BAALAJI_TG_USER_BOT = "ℋẹℒℒỔ 🙋‍♂ Welcome To My PM 😟.\nThis is a Automated Message From My Bot (@mahshook_bot) :-\n\nMy Master is Currently Busy and He Doesn't Approved Your PM yet. Please Wait For Him To Respond.ヽ(^o^)丿"
+TG_COMPANION_USER_BOT = "🤦‍♂ Please wait.....\nAs Far As I know My Master is Very Cool 😌. Most probably He Will Approve This Pm Unless You Are a Retard or Perv 😐"
+UNIBORG_USER_BOT_WARN_ZERO = "OMG 🙆‍♂ I Said That He is Currently Offline. Don't Dare To Spam his PM."
+UNIBORG_USER_BOT_NO_WARN = "Hey you! seriously...🙄. Its Enough Now. I have Another Works To Complete, So If You Send One More Message I Will Block This Pm Temporarily."
 
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
@@ -68,7 +68,7 @@ async def approve_p_m(event):
                     await borg.storage.PREV_REPLY_MESSAGE[chat.id].delete()
                     del borg.storage.PREV_REPLY_MESSAGE[chat.id]
                 approve(chat.id, reason)
-                await event.edit("Private Message Accepted")
+                await event.edit("Wow you Are Lucky! My Master Accepted Your Private Message")
                 await asyncio.sleep(3)
                 await event.delete()
 
@@ -83,7 +83,7 @@ async def approve_p_m(event):
         if event.is_private:
             if is_approved(chat.id):
                 disapprove(chat.id)
-                await event.edit("Blocked PM")
+                await event.edit("Blocked PM! Wait For My Master To Unblock You.")
                 await asyncio.sleep(3)
                 await borg(functions.contacts.BlockRequest(chat.id))
 
